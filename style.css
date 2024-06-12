@@ -1,0 +1,35 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+        color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change2 {
+    0% {
+      color: rgb(255, 0, 255);
+    }
+  
+    50% {
+      color: rgb(145, 255, 0);
+    }
+  
+    100% {
+        color: rgb(255, 0, 255);
+    }
+}
+
+button {
+    animation: color-change2 3s infinite;
+}
